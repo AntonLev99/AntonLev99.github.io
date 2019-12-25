@@ -1,0 +1,18 @@
+#an{
+	height: 100%; 
+	width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+#greeting{
+	padding-top: 10px;
+	font-family: 'Alex Brush';
+	font-size: 70px;
+	color: white;
+}
+#greet{
+	font-family: 'Alex Brush';
+	font-size: 65px;
+	color: white;
+	width: 100%;
+}
