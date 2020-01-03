@@ -38,6 +38,7 @@
 			setInterval(GetClock,1000);
 			}
 		    document.getElementById("an").style.background = "url('13.jpg')";
+		    document.getElementById("greeting").style.color = "white";	
 		} else if (time < 18) {
 		    greeting.innerHTML = "Good day, Anton!";
 		    tday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
@@ -64,7 +65,8 @@
 			setInterval(GetClock,1000);
 			}
 		    document.getElementById("an").style.background = "url('14.jpg')";
-		    document.getElementById("greeting").style.color = "white";
+		    document.getElementById("greeting").style.color = "black";
+		    document.getElementById("greet").style.color = "black";	
 
 		} else if (time < 24){
 		    greeting.innerHTML = "Good evening, Anton!";
